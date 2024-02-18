@@ -22,11 +22,19 @@
 |\<leader>\<t>|New tab|
 |\<leader>\<n>|New window|
 |\<Ctrl>\<PageUp> / \<Ctrl>\<PageDown>|Move between tabs|
+|\<leader>\<c>|Comment Line|
+|\<leader>\<c>\<c>|Comment selected as block|
+
 
 ## Insert Mode
 |Key|Use|
 |-|-|
 |\<Ctrl>\<x>+\<Ctrl>\<o>|auto complete coding|
+
+## Visual Mode
+|Key|Use|
+|\<leader>\<c>|Comment Line|
+|\<leader>\<c>\<c>|Comment selected as block|
 
 ## Neo Tree
 |Key|Use|
