@@ -21,6 +21,7 @@
 |{height}\<Ctrl>\<W>\<->|Decrease window height|
 |\<leader>\<t>|New tab|
 |\<leader>\<n>|New window|
+|\<Ctrl>\<PageUp> / \<Ctrl>\<PageDown>|Move between tabs|
 
 ## Insert Mode
 |Key|Use|
@@ -31,7 +32,7 @@
 |Key|Use|
 |-|-|
 |\<Shift>\<p>|Toggle preview|
-|\<Ctrl>\<PageUp> / \<Ctrl>\<PageDown>|Move between tabs|
+
 
 # Commands
 |Cmd|Use|
