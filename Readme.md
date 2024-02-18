@@ -33,6 +33,7 @@
 
 ## Visual Mode
 |Key|Use|
+|-|-|
 |\<leader>\<c>|Comment Line|
 |\<leader>\<c>\<c>|Comment selected as block|
 
