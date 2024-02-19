@@ -2,10 +2,11 @@
 - [Key binds](#key-binds)
   - [Normal Mode](#normal-mode)
   - [Insert Mode](#insert-mode)
+  - [Visual Mode](#visual-mode)
   - [Neo Tree](#neo-tree)
+  - [Jupyter Notebook](#jypyter-notebook)
 - [Commands](#commands)
-<!--toc:n-->
-
+<!--toc:end-->
 # Key binds
 ## Normal Mode
 |Key|Use|
@@ -17,14 +18,13 @@
 |\<j>|Get declaration|
 |\<leaader>\<o>\<o>|set coding actions|
 |\<=>|auto formatting|
-|{height}\<Ctrl>\<W>\<=>|Increase window height|
-|{height}\<Ctrl>\<W>\<->|Decrease window height|
+|\<Alt>\<Left> / \<Alt>\<Right>|Decrease / Increase window width|
+|\<Alt>\<Down> / \<Alt>\<Up>|Decrease / Increase window height|
 |\<leader>\<t>|New tab|
 |\<leader>\<n>|New window|
 |\<Ctrl>\<PageUp> / \<Ctrl>\<PageDown>|Move between tabs|
 |\<leader>\<c>|Comment Line|
 |\<leader>\<c>\<c>|Comment selected as block|
-
 
 ## Insert Mode
 |Key|Use|
@@ -42,6 +42,12 @@
 |-|-|
 |\<Shift>\<p>|Toggle preview|
 
+## Jupyter Notebook
+|Key|Use|
+|-|-|
+| \<[>\<h> / \<]>\<h>|Navigate up/down per cell|
+|\<leader>\<x>|Run cell and go to next cell|
+|\<leader>\<X>|Run cell|
 
 # Commands
 |Cmd|Use|
@@ -56,4 +62,3 @@
 |:tab vne| vertical split, empty file|
 |:tab vsp| vertical split, previous window file| 
 |:PeekOpen / :PeekClose| markdown preview open / close|
-
