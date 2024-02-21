@@ -11,6 +11,15 @@ return {
 	},
 
 	config = function()
+		require("neo-tree").setup({
+			filesystem = {
+				filtered_items = {
+					visible = true,
+					hide_dofiles = false,
+					hide_gitignored = false,
+				},
+			},
+		})
 		-- press leader + b toggle the tree, leader default key: \
 		vim.keymap.set("n", "<leader>b", ":Neotree toggle filesystem reveal left<CR>")
 	end,
