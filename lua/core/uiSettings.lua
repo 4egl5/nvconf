@@ -33,7 +33,7 @@ vim.keymap.set("n", "<leader>t", ":tab vne<CR>")
 vim.keymap.set("n", "<leader>n", ":vne<CR>")
 
 -- control window size
-vim.keymap.set("n", "<M-Up>",":vertical resize +5<CR>")
-vim.keymap.set("n", "<M-Down>",":vertical resize -5<CR>")
-vim.keymap.set("n", "<M-Left>",":horizontal resize -5<CR>")
-vim.keymap.set("n", "<M-Right>",":horizontal resize +5<CR>")
+vim.keymap.set("n", "<M-Up>",":horizontal resize +5<CR>")
+vim.keymap.set("n", "<M-Down>",":horizontal resize -5<CR>")
+vim.keymap.set("n", "<M-Left>",":vertical resize -5<CR>")
+vim.keymap.set("n", "<M-Right>",":vertical resize +5<CR>")
